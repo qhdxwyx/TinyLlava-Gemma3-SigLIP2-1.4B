@@ -96,12 +96,10 @@ This repository follows a two-stage training recipe implemented under `scripts/t
 
 The pretraining stage aligns visual representations from SigLIP2 with the Gemma3 language backbone before instruction tuning.
 
-In short:
-
 - Gemma3 LLM is frozen
 - the MLP connector is trained fully
 - the vision tower is partially tuned instead of fully updated
-- only later vision layers are opened for training, starting from layer `20`
+- only later vision layers are opened for training
 
 Default settings in `pretrain_gemma3.sh`:
 
@@ -118,14 +116,10 @@ Default settings in `pretrain_gemma3.sh`:
 ### Stage 2: Full Finetuning
 
 The finetuning stage instruction-tunes the model with the pretrained connector checkpoint.
-
-In short:
-
 - the stage-1 pretrained checkpoint is reused as initialization
 - Gemma3 LLM is fully tuned
 - the MLP connector continues full training
 - the vision tower is frozen during this stage
-- this stage focuses on multimodal instruction-following rather than further visual encoder adaptation
 
 Default settings in `finetune_gemma3.sh`:
 
