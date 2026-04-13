@@ -245,9 +245,6 @@ For more details, see:
 This project builds on TinyLLaVA / TinyLLaVA Factory and adapts it for a Gemma3 + SigLIP2 compact multimodal setup. Thanks to the TinyLLaVA authors and the open-source ecosystem behind Gemma3, SigLIP2, PyTorch, and Hugging Face.
 
 ## Citation
-
-If you find this project, model, or the TinyLLaVA papers useful in your research, please consider citing the following references together:
-
 ```bibtex
 @misc{wang2024microllama,
   title        = {MicroLLaVA: a TinyLLaVA based VLM with MicroLlama 300M for single GPU training},
