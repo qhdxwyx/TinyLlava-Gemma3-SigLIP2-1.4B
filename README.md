@@ -17,7 +17,7 @@ The repository is designed for practical small-scale VLM training, especially si
 - Model scale: roughly 1.4B parameters as a compact multimodal model
 - Training hardware: `2 x RTX 5090 GPU`
 
-### Qualitative Examples
+### Example Inference
 
 Prompt: `Describe this figure.`
 
