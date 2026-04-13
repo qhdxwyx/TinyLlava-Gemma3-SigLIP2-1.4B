@@ -29,9 +29,9 @@ Example 1
 Output:
 
 ```text
-The image features a tall, green and red building with a prominent spire on top. The tower is surrounded by a beautiful backdrop of trees and mountains in the distance. The scene appears to be set against a serene sky, creating an enchanting atmosphere.
+The image features a majestic structure with a large, pointy roof and a tall tower. The tower is surrounded by a beautiful landscape of trees and snow-capped mountains in the background. The scene appears to be set on a mountain peak, possibly in Japan, as there are cherry blossoms blooming around the area.
 
-In addition to the towering structure, there are several smaller buildings visible in the background, adding depth to the landscape. A few people can also be seen scattered throughout the area, likely admiring the impressive architecture or enjoying the view.
+In addition to the towering structure, there are several people scattered throughout the scene, likely admiring the breathtaking view or enjoying the natural beauty.  
 ```
 
 Example 2
