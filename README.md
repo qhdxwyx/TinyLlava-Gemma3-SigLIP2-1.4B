@@ -45,21 +45,6 @@ The image features a large wicker basket filled with an assortment of fresh frui
 In addition to the fruit, there are also grapes scattered throughout the basket, adding to the diverse selection of produce. This arrangement creates an appealing and inviting presentation for anyone who sees it.
 ```
 
-## Repository Structure
-
-```text
-TinyLlava-Gemma3-SigLIP2-1.4B/
-├── assets/
-├── scripts/
-│   ├── train/gemma3/
-│   ├── infer/
-│   └── eval/
-├── tinyllava/
-├── tinyllava_visualizer/
-├── README.md
-└── README_GEMMA3_SIGLIP2.md
-```
-
 ## Environment Setup
 
 We recommend a fresh Python 3.10 environment.
