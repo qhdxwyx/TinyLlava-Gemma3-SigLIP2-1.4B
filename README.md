@@ -232,9 +232,9 @@ The default `temperature` is `0`. Increase it only when you want more diverse ge
 
 ## Evaluation
 
-正在 `VQAv2` 测试集评估。**目前随机抽样测试分数约为 72%**
+Evaluation on the `VQAv2` test set is currently in progress. **The current random-sampled score is about 72%.**
 
-接下来考虑 `VLMEvalKit` 评估
+Next, we plan to evaluate with `VLMEvalKit`.
 
 For more details, see:
 
