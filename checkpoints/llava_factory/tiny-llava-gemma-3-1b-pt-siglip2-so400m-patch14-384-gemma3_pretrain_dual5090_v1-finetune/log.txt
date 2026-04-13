@@ -1,0 +1,26 @@
+2026-04-11 10:30:41,270 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 10:30:41,271 | INFO: Trainable Parameters:
+2026-04-11 10:35:53,107 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 10:35:53,108 | INFO: Trainable Parameters:
+2026-04-11 10:35:54,463 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 10:35:54,463 | INFO: Trainable Parameters:
+2026-04-11 10:40:26,019 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 10:40:26,019 | INFO: Trainable Parameters:
+2026-04-11 10:40:26,605 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 10:40:26,606 | INFO: Trainable Parameters:
+2026-04-11 10:42:51,748 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 10:42:51,749 | INFO: Trainable Parameters:
+2026-04-11 10:42:53,412 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 10:42:53,412 | INFO: Trainable Parameters:
+2026-04-11 10:50:12,955 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 10:50:12,956 | INFO: Trainable Parameters:
+2026-04-11 10:50:14,615 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 10:50:14,615 | INFO: Trainable Parameters:
+2026-04-11 10:58:43,120 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 10:58:43,121 | INFO: Trainable Parameters:
+2026-04-11 10:58:43,534 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 10:58:43,534 | INFO: Trainable Parameters:
+2026-04-11 11:02:53,373 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 11:02:53,374 | INFO: Trainable Parameters:
+2026-04-11 11:02:53,651 | INFO: Total Parameters: 1430768064, Total Trainable Parameters: 1002542464
+2026-04-11 11:02:53,652 | INFO: Trainable Parameters:
