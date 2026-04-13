@@ -1,0 +1,44 @@
+{
+  "model": {
+    "GemmaLlava_Gemma3_1B_SigLIP2": {
+      "class": "GemmaLlava",
+      "model_path": "../GemmaLlava/checkpoints/llava_factory/tiny-llava-gemma-3-1b-pt-siglip2-so400m-patch14-384-gemma3_pretrain_dual5090_v1-finetune",
+      "repo_root": "../GemmaLlava",
+      "device": "cuda:0",
+      "conv_mode": "gemma3",
+      "temperature": 0.0,
+      "max_new_tokens": 128,
+      "repetition_penalty": 1.08,
+      "no_repeat_ngram_size": 3
+    },
+    "Qwen2.5-VL-7B-Instruct": {},
+    "llava_next_llama3": {},
+    "GeminiFlash2-5": {}
+  },
+  "data": {
+    "MME": {
+      "class": "ImageYORNDataset",
+      "dataset": "MME"
+    },
+    "MMVet": {
+      "class": "MMVet",
+      "dataset": "MMVet"
+    },
+    "TextVQA_VAL": {
+      "class": "ImageVQADataset",
+      "dataset": "TextVQA_VAL"
+    },
+    "GQA_TestDev_Balanced": {
+      "class": "ImageVQADataset",
+      "dataset": "GQA_TestDev_Balanced"
+    },
+    "MMBench_V11": {
+      "class": "ImageMCQDataset",
+      "dataset": "MMBench_V11"
+    },
+    "MMMU_DEV_VAL": {
+      "class": "MMMUDataset",
+      "dataset": "MMMU_DEV_VAL"
+    }
+  }
+}

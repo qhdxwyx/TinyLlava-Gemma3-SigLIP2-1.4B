@@ -1,0 +1,21 @@
+{
+  "model": {
+    "GemmaLlava_Gemma3_1B_SigLIP2": {
+      "class": "GemmaLlava",
+      "model_path": "../GemmaLlava/checkpoints/llava_factory/tiny-llava-gemma-3-1b-pt-siglip2-so400m-patch14-384-gemma3_pretrain_dual5090_v1-finetune",
+      "repo_root": "../GemmaLlava",
+      "device": "cuda:0",
+      "conv_mode": "gemma3",
+      "temperature": 0.0,
+      "max_new_tokens": 128,
+      "repetition_penalty": 1.08,
+      "no_repeat_ngram_size": 3
+    }
+  },
+  "data": {
+    "MMBench_TEST_EN_V11": {
+      "class": "ImageMCQDataset",
+      "dataset": "MMBench_TEST_EN_V11"
+    }
+  }
+}
