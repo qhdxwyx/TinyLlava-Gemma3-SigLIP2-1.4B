@@ -183,7 +183,7 @@ Common environment variables:
 
 Bundled test images are available in `tinyllava/serve/examples/`.
 
-Simple Python inference on Windows PowerShell:
+Inference on Windows PowerShell:
 
 ```powershell
 cd E:\LLM_projects\GemmaLlava\TinyLlava-Gemma3-SigLIP2-1.4B
@@ -194,7 +194,7 @@ python .\simply_inference.py `
   --query "Describe this figure."
 ```
 
-Simple Python inference on Linux/macOS bash:
+Inference on Linux/macOS bash:
 
 ```bash
 python simply_inference.py \
