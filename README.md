@@ -16,6 +16,7 @@ The repository is designed for practical small-scale VLM training, especially si
 - Framework base: TinyLLaVA / TinyLLaVA Factory
 - Model scale: roughly 1.4B parameters as a compact multimodal model
 - Training hardware: `2 x RTX 5090 GPU`
+- Experiment tracking: `SwanLab`
 
 ### Example Inference
 
@@ -161,6 +162,8 @@ FINETUNE_BATCH_SIZE=4 \
 REPORT_TO=wandb \
 bash scripts/train/gemma3/train_gemma3_base.sh
 ```
+
+Training logs are tracked with `SwanLab`. This repository provides a lightweight `wandb.py` compatibility shim, so existing `REPORT_TO=wandb` workflows are redirected to `SwanLab` automatically.
 
 Common environment variables:
 
