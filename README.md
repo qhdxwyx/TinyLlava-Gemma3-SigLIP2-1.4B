@@ -1,6 +1,6 @@
 # TinyLlava-Gemma3-SigLIP2-1.4B
 
-TinyLlava-Gemma3-SigLIP2-1.4B is a compact vision-language model project built on top of TinyLLaVA, using `gemma-3-1b-pt` as the language backbone and `google/siglip2-so400m-patch14-384` as the vision tower. This repository contains the training, finetuning, inference, and evaluation code for this Gemma3 + SigLIP2 variant.
+TinyLlava-Gemma3-SigLIP2-1.4B is a compact vision-language model project built on top of TinyLLaVA, using `gemma-3-1b-pt` as the language backbone and `siglip2-so400m-patch14-384` as the vision tower. This repository contains the training, finetuning, inference, and evaluation code for this Gemma3 + SigLIP2 variant.
 
 The repository is designed for practical small-scale VLM training, especially single-GPU or lightweight multi-GPU workflows, with a simple two-stage pipeline:
 
@@ -15,6 +15,7 @@ The repository is designed for practical small-scale VLM training, especially si
 - Conversation template: `gemma3`
 - Framework base: TinyLLaVA / TinyLLaVA Factory
 - Model scale: roughly 1.4B parameters as a compact multimodal model
+- Training hardware: `2 x RTX 5090 GPU`
 
 ### Qualitative Examples
 
@@ -231,7 +232,9 @@ The default `temperature` is `0`. Increase it only when you want more diverse ge
 
 ## Evaluation
 
-Local evaluation utilities are included under `scripts/eval/` and `tinyllava/eval/`, including VQAv2-style evaluation and local `VLMEvalKit` integration.
+正在 `VQAv2` 测试集评估。**目前随机抽样测试分数约为 72%**
+
+接下来考虑 `VLMEvalKit` 评估
 
 For more details, see:
 
