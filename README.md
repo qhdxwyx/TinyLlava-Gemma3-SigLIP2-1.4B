@@ -46,9 +46,6 @@ In addition to the fruit, there are also grapes scattered throughout the basket,
 ```
 
 ## Environment Setup
-
-We recommend a fresh Python 3.10 environment.
-
 ```bash
 git clone https://github.com/qhdxwyx/TinyLlava-Gemma3-SigLIP2-1.4B
 cd TinyLlava-Gemma3-SigLIP2-1.4B
