@@ -211,8 +211,7 @@ The default `temperature` is `0`. Increase it only when you want more diverse ge
 
 ## Evaluation
 
-Evaluation on the `VQAv2` test set is currently in progress. **The current random-sampled score is about 72%.**
-
+The random sampling evaluation score on the `VQAv2` test set is approximately **72%**, slightly lower than that of **Llava-1.5-7B**.
 Next, we plan to evaluate with `VLMEvalKit`.
 
 For more details, see:
